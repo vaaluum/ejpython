@@ -1,0 +1,9 @@
+def salario_total():
+    vendidos = int(input("Ingrese el número de autos vendidos: "))
+    valor = float(input("Ingrese el valor: "))
+    
+    salario = 5500 + (vendidos * 200) + (vendidos *valor * 0.05)
+    
+    print("El salario total del vendedor es:", salario)
+
+salario_total()

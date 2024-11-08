@@ -1,0 +1,14 @@
+def descomponer_fecha():
+   
+    fecha = int(input("Insertar fecha en formato DDMMAAAA: "))
+    
+    dia = fecha // 1000000 
+    mes = (fecha // 10000) % 100  
+    anio = fecha % 10000 
+    
+    print("Día:", dia)
+    print("Mes:", mes)
+    print("Año:", anio)
+
+descomponer_fecha()
+

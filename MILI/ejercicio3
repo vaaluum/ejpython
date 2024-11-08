@@ -1,0 +1,11 @@
+def multiplicacion():
+   l1 = int(input("Ingrese el primer lado del rectángulo: "))
+   l2 = int(input("Ingrese el segundo lado del rectángulo: "))
+
+
+   superficie = l1 * l2
+
+
+   print("La superficie del rectángulo es:", superficie)
+
+multiplicacion()

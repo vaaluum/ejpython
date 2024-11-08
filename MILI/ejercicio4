@@ -1,0 +1,8 @@
+def multiplicacion():
+    lado = float(input("Ingrese el lado del cuadrado: "))
+
+    superficie = lado * 2
+
+    print("La superficie de la figura es:", superficie)
+
+multiplicacion()

@@ -1,0 +1,14 @@
+def ejercicio6():
+    
+    base = float(input("Ingrese la base de dicha figura: "))
+    altura = float(input("Ingrese la altura de dicha figura: "))
+
+    # La constante 
+    DIVISOR = 2
+
+    superficie = (base * altura) / DIVISOR
+
+   
+    print("La superficie es:", superficie)
+
+ejercicio6()
